@@ -44,11 +44,11 @@ Using Java CLI:
 
 📸 Screenshots
 
-    ![grafik](https://github.com/user-attachments/assets/ef511e5c-375c-43d3-80d7-f1187aea0f29)
+ ![grafik](https://github.com/user-attachments/assets/ef511e5c-375c-43d3-80d7-f1187aea0f29)
 
-    ![grafik](https://github.com/user-attachments/assets/407f8d48-e290-48c6-a9d5-4c732ec5e461)
+ ![grafik](https://github.com/user-attachments/assets/407f8d48-e290-48c6-a9d5-4c732ec5e461)
 
-    ![grafik](https://github.com/user-attachments/assets/e70cb06e-0e7b-45de-a8d1-2fb4f309938d)
+ ![grafik](https://github.com/user-attachments/assets/e70cb06e-0e7b-45de-a8d1-2fb4f309938d)
 
 
 
