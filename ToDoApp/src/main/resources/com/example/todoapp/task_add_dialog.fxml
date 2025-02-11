@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.todoapp.controller.TaskAddDialogController"
+      prefHeight="400.0" prefWidth="400.0"
+      spacing="10" alignment="CENTER"
+      styleClass="dialog-pane"
+>
+    <Label text="Add new Task" />
+    <MFXTextField fx:id="taskTitleField" promptText="Enter task title"
+                  floatingText="Task title" prefWidth="400"
+                  styleClass="dialog-title"/>
+    <Label text="Task Description" />
+    <TextArea fx:id="taskDescriptionField" promptText="Enter task description"
+              wrapText="true" prefWidth="400" prefHeight="200" />
+
+    <HBox spacing="10" alignment="CENTER_RIGHT" >
+        <Region HBox.hgrow="ALWAYS" />
+        <MFXButton styleClass="cancel-button" text="Cancel" onAction="#handleCancel"
+                   prefHeight="30" />
+        <MFXButton text="Submit" onAction="#handleSubmit"
+                   prefHeight="30" />
+    </HBox>
+
+
+</VBox>

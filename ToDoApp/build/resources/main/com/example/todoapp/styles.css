@@ -1,0 +1,48 @@
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.task-card {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0.5, 0, 0);
+}
+
+.timestamp {
+    -fx-font-size: 12px;
+    -fx-text-fill: #a1a1a1;
+}
+
+MFXButton {
+    -fx-background-color: #6200EE;
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 0);
+}
+
+MFXButton:hover {
+    -fx-background-color: #5a00d9;
+}
+
+MFXComboBox {
+    -fx-background-color: #f2f2f2;
+    -fx-background-radius: 5px;
+}
+
+
+ScrollPane {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+VBox {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}

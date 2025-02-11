@@ -1,0 +1,38 @@
+.dialog-pane{
+    -fx-padding: 20px;
+}
+.dialog-title{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+MFXButton{
+    -fx-background-color: #6200EE;
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.5, 0, 0);
+}
+
+MFXButton:hover{
+    -fx-background-color: #5a00d9;
+}
+
+TextArea{
+    -fx-font-size: 14px;
+    -fx-padding: 0px;
+    -fx-focus-color: #6200EE;
+    -fx-border-radius: 8px;
+}
+.cancel-button {
+    -fx-background-color: #757575;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.cancel-button:hover{
+    -fx-background-color: #666;
+}
