@@ -21,10 +21,10 @@ A JavaFX To-Do List application built with MaterialFX for a modern UI design. Th
 
 📦 Installation & Setup
 
-    Clone the repository:
+Clone the repository:
 
-git clone https://github.com/your-github-username/todo-app.git
-cd todo-app
+    git clone https://github.com/your-github-username/todo-app.git
+    cd todo-app
 
 Run the application:
 
@@ -32,9 +32,9 @@ Run the application:
 
 mvn javafx:run
 
-Using Gradle:
+    Using Gradle:
 
-./gradlew run
+    ./gradlew run
 
 Using Java CLI:
 
@@ -43,9 +43,12 @@ Using Java CLI:
     Tasks will be saved locally in task.bin and loaded automatically on restart.
 
 📸 Screenshots
-![grafik](https://github.com/user-attachments/assets/ef511e5c-375c-43d3-80d7-f1187aea0f29)
-![grafik](https://github.com/user-attachments/assets/407f8d48-e290-48c6-a9d5-4c732ec5e461)
-![grafik](https://github.com/user-attachments/assets/e70cb06e-0e7b-45de-a8d1-2fb4f309938d)
+
+    ![grafik](https://github.com/user-attachments/assets/ef511e5c-375c-43d3-80d7-f1187aea0f29)
+
+    ![grafik](https://github.com/user-attachments/assets/407f8d48-e290-48c6-a9d5-4c732ec5e461)
+
+    ![grafik](https://github.com/user-attachments/assets/e70cb06e-0e7b-45de-a8d1-2fb4f309938d)
 
 
 
